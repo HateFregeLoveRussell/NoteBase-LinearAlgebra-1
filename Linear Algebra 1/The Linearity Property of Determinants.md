@@ -85,7 +85,7 @@ $$
 #### Corollary 1.44a.1 (Linearity Property of Determinants in Rows): 
 If the $\large{i}$-th row of the [[Determinants#Definition(Determinants)|determinant]] $\large{D}$ are a linear combination of two rows of numbers(which may or may not belong to the same determinant):
 $$\large{a_{ij} = \lambda b_j + \mu c_j}$$
-for every $\large{j = 1,2,\ldots, n}$ where $\large{n}$ is the [[Determinants#Definition(Determinants)|order]] of $\large{D}$ and $\large{\lambda, \mu \in K}$ for the [[Fields and Ordered Fields#Definition 1.12|Field]] $\large{K}$. Then $\large{D}$ is equivalent to the linear combination of the two determinants:
+for every $\large{j = 1,2,\ldots, n}$ where $\large{n}$ is the [[Determinants#Definition(Determinants)|order]] of $\large{D}$ and $\large{\lambda, \mu \in K}$ for the [[Number Fields#Definition (Number Fields)|Field]] $\large{K}$. Then $\large{D}$ is equivalent to the linear combination of the two determinants:
 $$\large{D = \lambda D_1 + \mu D_2}$$
 Where $\large{D_1}$ and $\large{D_2}$ have the same rows as $\large{D}$ except for the row $\large{i}$. In place of this row are the rows $\large{b_1, b_2, \ldots, b_n}$ and $\large{c_1, c_2, \ldots, c_n}$ respectively.
 ##### Proof:
