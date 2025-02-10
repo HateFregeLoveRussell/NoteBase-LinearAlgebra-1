@@ -58,4 +58,4 @@ Two [[Number Fields#Definition (Number Fields)|Fields]] denoted $\large{K_1}$ an
 
 ##### Note: 
 The equality of the [[Number Fields#Subtraction|Difference]] and [[Number Fields#Division|Quotient]] of two elements in $\large{K_1}$ and their corresponding elements in $\large{K_2}$ follows from the equality of products and sums described above.
-TODO: Prove this
+#TODO: Prove this

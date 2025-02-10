@@ -69,8 +69,9 @@ Textbook acting as a more rigorous introduction to Linear Algebra.
 In Progress Notes:
 ```dataview
 LIST
-FROM "Academic Notes/NoteBase-LinearAlgebra-1/Linear Algebra 1"
+FROM "Academic Notes/Linear Algebra 1" 
 WHERE status.state = "In Progress" OR status.state = "Stub"
+LIMIT 10
 ```
 
 

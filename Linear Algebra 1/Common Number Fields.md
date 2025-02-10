@@ -58,11 +58,11 @@ This field denoted $\large{\Bbb Q}$ contains all numbers of the form $\large{\fr
 
 ##### Note: 
 It follows that every field $\large{K}$ has an [[Field Isomorphisms#Definition (Field Isomorphisms)|Isomorphic]] subfield to $\large{\Bbb Q}$.
-TODO: prove this 
+#TODO: prove this 
 
 ##### Note: 
 The integers themselves $\large{\Bbb Z}$ don't form a field because they do not satisfy [[Number Fields#Multiplication|Axiom (M4)]] 
-TODO: prove this
+#TODO: prove this
 
 #### Definition (Field of Real Numbers):
 This field is denoted $\large{\Bbb R}$ is the set of all points on the real line. The [[Number Fields#Definition (Number Fields)|Field Axioms]] are satisfied through the **==Axioms of Order==** and the **==Least Upper Bound Axiom==** typically used to build the Real Numbers. This set is subject to the usual operations of arithmetic. 
