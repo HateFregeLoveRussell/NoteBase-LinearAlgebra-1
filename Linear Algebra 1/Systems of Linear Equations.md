@@ -18,23 +18,35 @@ class: {
     type: "object"
   }
 }
-source: {
-  section-name: "Problems of the Theory of Systems of Linear Equations",
-  start-page: 3,
-  type: "tbsection",
-  template: {
-    name: "source-tbsection-obj",
-    version: 1,
-    type: "object"
-  },
-  class-alias: "Lin-Alg-1",
-  source-alias: "Lin-Alg-1-Ch1-Sec1-2",
-  ISBN: "978-0-486-63518-7",
-  end-page: 5,
-  book-title: "Linear Algebra"
-}
-relationship: {name: standard-relationship-obj, version: 1}
-friends: 
+source: [{
+	  section-name: "Problems of the Theory of Systems of Linear Equations",
+	  start-page: 3,
+	  type: "tbsection",
+	  template: {
+	    name: "source-tbsection-obj",
+	    version: 1,
+	    type: "object"
+	  },
+	  class-alias: "Lin-Alg-1",
+	  source-alias: "Lin-Alg-1-Ch1-Sec1-2",
+	  ISBN: "978-0-486-63518-7",
+	  end-page: 5,
+	  book-title: "Linear Algebra"},
+	  
+	  {
+	  ISBN: "978-0-486-63518-7",
+	  section-name: "Cramers Rule",
+	  type: "tbsection",
+	  class-alias: "Lin-Alg-1",
+	  end-page: 20,
+	  source-alias: "Lin-Alg-1-Ch1-Sec1-7",
+	  template: {
+	    type: "object",
+	    name: "source-tbsection-obj",
+	    version: 1},
+		start-page: 18, 
+		book-title: "Linear Algebra"
+	}]  
 status: {
   state: "Completed",
   template: {
@@ -92,3 +104,22 @@ $$
 The system is both Indeterminant and Compatible as it has the solutions: 
 $\large{c_1^{(1)} = c_2^{(1)}= 0}$ and $\large{c_1^{(2)}=3}$ $\large{ c_2^{(2)}= -2}$.
 There is also infinitely many other solutions to this system.
+
+#### Definition (Coefficient Matrix):
+When the number of equations match the number of unknowns, 
+$$\large \begin{eqnarray} 
+a_{1,1}x_1 + a_{1,2}x_2 + \ldots + a_{1,n}x_n &=& b_1 \\
+a_{2,1}x_1 + a_{2,2}x_2 + \ldots + a_{2,n}x_n &=& b_2 \\
+\vdots \\
+a_{n,1}x_1 + a_{n,2}x_2 + \ldots + a_{n,n}x_n &=& b_n 
+\end{eqnarray}$$
+the [[Systems of Linear Equations#Definition (Systems of Linear Equations)|coefficients]] of the system can be organised into a [[Square Matrices#Definition (Square Matrix)|square matrix]] $$
+\large{
+\begin{vmatrix} \begin{vmatrix}
+a_{1,1} & a_{1,2} & \ldots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \ldots & a_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\ 
+a_{n,1} & a_{n,2} & \ldots & a_{n,n}
+\end{vmatrix}\end{vmatrix}
+}$$
+This matrix is called the **==coefficient matrix==** of the system. 
